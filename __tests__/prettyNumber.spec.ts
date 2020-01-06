@@ -14,4 +14,12 @@ describe('Pretty number suite', () => {
     
     expect(prettyNumber(number)).toEqual('1.0m');
   });  
+
+  it('should return zero', () => {
+    expect(prettyNumber(0)).toEqual('0');
+  });
+
+  it('should default tier SI', () => {
+    expect(prettyNumber(100)).toEqual('100');
+  });  
 });
