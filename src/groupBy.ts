@@ -1,4 +1,4 @@
-import { curry } from "./types";
+import {curry} from './types';
 
 export const groupBy = <T>(iterable: T[], generator: curry): object => {
   const groupedValues: object = {};

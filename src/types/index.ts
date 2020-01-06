@@ -1,1 +1,1 @@
-export type curry = (...args: any[]) => any; 
+export type curry = (...args: any[]) => any;
