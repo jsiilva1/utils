@@ -3,3 +3,4 @@ export * from './prettyNumber';
 export * from './isNumber';
 export * from './groupBy';
 export * from './unique';
+export * from './stringify';
