@@ -13,7 +13,7 @@
     "build": "yarn clean && yarn compile",
     "build:watch": "yarn clean && yarn compile -w",
     "test": "jest",
-    "test:cov": "jest -- --coverage",
+    "test:cov": "jest --coverage",
     "lint": "./node_modules/eslint/bin/eslint.js src --ext .ts --fix"
   },
   "author": "Jr Silva <jsiilva@outlook.com.br>",
