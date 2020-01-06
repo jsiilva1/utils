@@ -7,6 +7,15 @@
   "files": [
     "dist"
   ],
+  "scripts": {
+    "compile": "./node_modules/typescript/bin/tsc",
+    "clean": "rm -rf ./dist",
+    "build": "yarn clean && yarn compile",
+    "build:watch": "yarn clean && yarn compile -w",
+    "test": "jest",
+    "test:cov": "jest -- --coverage",
+    "lint": "./node_modules/eslint/bin/eslint.js src --ext .ts --fix"
+  },
   "author": "Jr Silva <jsiilva@outlook.com.br>",
   "license": "MIT",
   "repository": {
@@ -26,6 +35,11 @@
     "@sindresorhus/tsconfig": "^0.7.0",
     "@types/jest": "^24.0.25",
     "@types/node": "^13.1.4",
+    "@typescript-eslint/eslint-plugin": "^2.14.0",
+    "@typescript-eslint/parser": "^2.14.0",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-jest": "^23.3.0",
     "jest": "^24.9.0",
     "jest-extended": "^0.11.2",
     "ts-jest": "^24.2.0",
