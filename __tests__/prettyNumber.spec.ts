@@ -2,7 +2,7 @@ import "jest-extended";
 
 import { prettyNumber } from '../src';
 
-describe('Format Number Helper Util', () => {
+describe('Pretty number suite', () => {
   it('should turn random number 259.422 into 259.4 with "k" tier SI', () => {
     const number = 259422;
     
