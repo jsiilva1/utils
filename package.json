@@ -13,7 +13,7 @@
     "build": "yarn clean && yarn compile",
     "build:watch": "yarn clean && yarn compile -w",
     "test": "jest",
-    "test:cov": "jest --coverage",
+    "test:cov": "jest --coverage && codecov --token=1a2a4a9a-4c23-491b-80dc-4704cde8f2d9",
     "lint": "./node_modules/eslint/bin/eslint.js src --ext .ts --fix"
   },
   "author": "Jr Silva <jsiilva@outlook.com.br>",
@@ -37,6 +37,7 @@
     "@types/node": "^13.1.4",
     "@typescript-eslint/eslint-plugin": "^2.14.0",
     "@typescript-eslint/parser": "^2.14.0",
+    "codecov": "^3.6.1",
     "eslint": "^6.8.0",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-jest": "^23.3.0",
