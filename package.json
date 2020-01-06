@@ -19,5 +19,16 @@
   "homepage": "https://github.com/jsiilva1/utils#readme",
   "engines": {
     "node": ">=12.x"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@sindresorhus/tsconfig": "^0.7.0",
+    "@types/jest": "^24.0.25",
+    "@types/node": "^13.1.4",
+    "jest": "^24.9.0",
+    "jest-extended": "^0.11.2",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.4"
   }
 }
