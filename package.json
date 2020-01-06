@@ -1,0 +1,23 @@
+{
+  "name": "utils",
+  "version": "0.1.0",
+  "description": "Implementations of my commonly used functions in TypeScript using the vehement performance constraint",
+  "main": "dist/index",
+  "types": "dist/index",
+  "files": [
+    "dist"
+  ],
+  "author": "Jr Silva <jsiilva@outlook.com.br>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsiilva1/utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jsiilva1/utils/issues"
+  },
+  "homepage": "https://github.com/jsiilva1/utils#readme",
+  "engines": {
+    "node": ">=12.x"
+  }
+}
